@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonSports</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://musing-varahamihira-c01873.netlify.app/css/main.css">
+    <link rel="stylesheet" href="/pages/productlisting/productlisting.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-left">
+            <h1>NeonSports</h1>
+            <form class="d-flex p-relative">
+                <input type="text" class="searchbar-input" placeholder="Search for products">
+                <span class="material-icons searchbar-icon">search</span>
+            </form>
+        </div>
+        <div class="nav-right">
+            <div class="badge-parent">
+                <span class="material-icons"> shopping_cart </span>
+                <div class="badge-with-icon">5</div>
+            </div>
+            
+            <div class="badge-parent">
+                <span class="material-icons"> favorite_border </span>
+                <div class="badge-with-icon">3</div>
+            </div>
+    
+            <div class="badge-parent">
+                <span class="material-icons"> notifications_none </span>
+                <div class="badge-with-icon">1</div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex">
+        <aside>
+            <div class="filter-container">
+                <div class="filter-head">
+                    <h3>Filter</h3>
+                    <p class="text-underline">Clear</p>
+                </div>
+                <div class="filter-content">
+                    <h4>Price</h4>
+                    <div class="filter-input-group">
+                        <input type="range">  
+                    </div>
+                    <h4>Category</h4>
+                    <div class="filter-input-group">
+                        <label for="category1"> <input type="radio" name="" id="category1"> Men</label>
+                        <label for="category2"> <input type="radio" name="" id="category2"> Men</label>
+                        <label for="category3"> <input type="radio" name="" id="category3"> Men</label>
+                    </div>
+                    <h4>Ratings</h4>
+                    <div class="filter-input-group">
+                        <label for="rating1"> <input type="radio" name="" id="rating1"> 4 &starf;& above</label>
+                        <label for="rating2"> <input type="radio" name="" id="rating2"> 3 &starf;& above</label>
+                        <label for="rating3"> <input type="radio" name="" id="rating3"> 2 &starf;& above</label>
+                    </div>
+                    <h4>Sort By</h4>
+                    <div class="filter-input-group">
+                        <label for="sortby1"> <input type="radio" name="" id="sortby1"> Popularity</label>
+                        <label for="sortby2"> <input type="radio" name="" id="sortby2"> Price -- High to Low</label>
+                        <label for="sortby3"> <input type="radio" name="" id="sortby3"> Price -- Low to High</label>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="p-2 productlist-container">
+            <div class="d-flex flex-column card br-top-sm">
+                <div class="card-media">
+                    <img class="responsive-img br-top-sm" src="/assets/img/shoes3.jpg" alt="no img">
+                    <button class="btn-icon card-badge-topRight"> <span class="material-icons">favorite_border</span> </button>
+                </div>
+                <div class="card-body">
+                    <h2 class="font-size-md m-0">Backpack</h2>
+                    <h class="font-size-sm color-gray-500">Grey & Black</h>
+                    <div class="card-desc font-weight-600">
+                        <div>₹ 699</div>
+                        <div class="text-decoration-linethrough">₹ 1398</div>
+                        <div class="color-green-600">50% off</div>
+                    </div>  
+                </div>
+                <button class="btn btn-add-cart btn-primary mr-btn-10px font-size-regular">Add to Cart</button> 
+            </div>
+            <div class="d-flex flex-column card br-top-sm">
+                <div class="card-media">
+                    <img class="responsive-img br-top-sm" src="/assets/img/shoes4.jpg" alt="no img">
+                    <button class="btn-icon card-badge-topRight"> <span class="material-icons">favorite_border</span> </button>
+                </div>
+                <div class="card-body">
+                    <h2 class="font-size-md m-0">Backpack</h2>
+                    <h class="font-size-sm color-gray-500">Grey & Black</h>
+                    <div class="card-desc font-weight-600">
+                        <div>₹ 699</div>
+                        <div class="text-decoration-linethrough">₹ 1398</div>
+                        <div class="color-green-600">50% off</div>
+                    </div>  
+                </div>
+                <button class="btn btn-add-cart btn-primary mr-btn-10px font-size-regular">Add to Cart</button> 
+            </div>
+            <div class="d-flex flex-column card br-top-sm">
+                <div class="card-media">
+                    <img class="responsive-img br-top-sm" src="/assets/img/shoes2.jpg" alt="no img">
+                    <button class="btn-icon card-badge-topRight"> <span class="material-icons">favorite_border</span> </button>
+                </div>
+                <div class="card-body">
+                    <h2 class="font-size-md m-0">Backpack</h2>
+                    <h class="font-size-sm color-gray-500">Grey & Black</h>
+                    <div class="card-desc font-weight-600">
+                        <div>₹ 699</div>
+                        <div class="text-decoration-linethrough">₹ 1398</div>
+                        <div class="color-green-600">50% off</div>
+                    </div>  
+                </div>
+                <button class="btn btn-add-cart btn-primary mr-btn-10px font-size-regular">Add to Cart</button> 
+            </div>
+            <div class="d-flex flex-column card br-top-sm">
+                <div class="card-media">
+                    <img class="responsive-img br-top-sm" src="/assets/img/shoes1.jpg" alt="no img">
+                    <button class="btn-icon card-badge-topRight"> <span class="material-icons">favorite_border</span> </button>
+                </div>
+                <div class="card-body">
+                    <h2 class="font-size-md m-0">Backpack</h2>
+                    <h class="font-size-sm color-gray-500">Grey & Black</h>
+                    <div class="card-desc font-weight-600">
+                        <div>₹ 699</div>
+                        <div class="text-decoration-linethrough">₹ 1398</div>
+                        <div class="color-green-600">50% off</div>
+                    </div>  
+                </div>
+                <button class="btn btn-add-cart btn-primary mr-btn-10px font-size-regular">Add to Cart</button> 
+            </div>
+        </main>
+    </div>
+</body>
+</html>
