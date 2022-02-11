@@ -13,8 +13,23 @@
     margin-bottom: 5px;
     z-index: 1;
 }
-
+.list-style-none{
+    list-style: none;
+}
 
 .gap-sm{
     gap:4px;
+}
+.card.p-2{
+    padding: 2rem;
+}
+
+.br-1px{
+    border: 1px solid;
+}
+
+.cart-count-num{
+    background: #efefef;
+    padding: 0px 10px;
+    border-radius: 4px;
 }
