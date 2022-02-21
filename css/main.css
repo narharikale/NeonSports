@@ -87,7 +87,7 @@
     transition: all .7s ease-in-out;
 }
 .categories-media-overlay:hover{
-    background-color: var(--primary-color-200);
+    background-color:var(--color-overlay-400);
     
 }
 .position-center{
@@ -145,7 +145,10 @@
     grid-template-columns: minmax(0,60%) 40%;
     gap: 1.25rem;
 }
-
+.p-sticky-top{
+    position:sticky;
+    top: 4rem;
+}
 
 @media screen and (max-width: 500px) {
     .cart-container{
