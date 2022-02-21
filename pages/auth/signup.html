@@ -6,42 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeonSports</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <link rel="stylesheet" href="https://musing-varahamihira-c01873.netlify.app/css/main.css">
+    <link rel="stylesheet" href="https://neonui.netlify.app/css/main.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body class="flex-container">
-    <!-- <nav class="nav-container nav-container-custom">
-        <div class="nav-left">
-            <h1>NeonSports</h1>
-            <form class="d-flex p-relative">
-                <input type="text" class="searchbar-input" placeholder="Search for products">
-                <span class="material-icons searchbar-icon">search</span>
-            </form>
+<body >
+    <nav class="nav-container nav-container-custom">
+        <div class="container d-flex justify-between">
+            <div class="nav-left">
+                <h1><a href="/index.html">NeonSports</a></h1>
+                <form class="d-flex p-relative">
+                    <input type="text" class="searchbar-input" placeholder="Search for products">
+                    <span class="material-icons searchbar-icon">search</span>
+                </form>
+                
+            </div>
+            <div class="nav-right">
+                
+                <a href="/pages/cart/cart.html" class="badge-parent">
+                    <span class="material-icons"> shopping_cart </span>
+                    <div class="badge-with-icon">5</div>
+                </a>
+                
+                <a href="/pages/wishlist/wishlist.html" class="badge-parent">
+                    <span class="material-icons"> favorite_border </span>
+                    <div class="badge-with-icon">3</div>
+                </a>
+        
+                <div class="badge-parent">
+                    <span class="material-icons"> notifications_none </span>
+                    <div class="badge-with-icon">1</div>
+                </div>
+
+            </div>
         </div>
-        <div class="nav-right">
-            <div class="badge-parent">
-                <span class="material-icons"> shopping_cart </span>
-                <div class="badge-with-icon">5</div>
-            </div>
-            
-            <div class="badge-parent">
-                <span class="material-icons"> favorite_border </span>
-                <div class="badge-with-icon">3</div>
-            </div>
-    
-            <div class="badge-parent">
-                <span class="material-icons"> notifications_none </span>
-                <div class="badge-with-icon">1</div>
-            </div>
-        </div>
-    </nav> -->
-    <div>
+    </nav>
+    <div class="d-flex justify-around">
         <div class="auth-form">
             <h1>Sign Up</h1>
+            <label for="login-fullName">Full name
+                <input id="login-fullName" type="text">
+            </label>
             <label for="login-email">Email address
                 <input id="login-email" type="text">
             </label>
-            <label for="login-email">Password
+            <label for="login-email">Create Password
+                <input id="login-email" type="text">
+            </label>
+            <label for="login-email">Confirm Password
                 <input id="login-email" type="text">
             </label>
             <div class="d-flex w-100-per justify-between">
