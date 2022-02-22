@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://neonui.netlify.app/css/main.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body >
+<body class="d-flex flex-column h-100-vh" >
     <nav class="nav-container nav-container-custom">
         <div class="container d-flex justify-between">
             <div class="nav-left">
@@ -20,7 +20,7 @@
                 </form>
                 
             </div>
-            <div class="nav-right">
+            <!-- <div class="nav-right">
                 
                 <a href="/pages/cart/cart.html" class="badge-parent">
                     <span class="material-icons"> shopping_cart </span>
@@ -37,31 +37,31 @@
                     <div class="badge-with-icon">1</div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </nav>
-    <div class="d-flex justify-around">
-        <div class="auth-form">
+    <div class="auth-form-container">
+        <form class="auth-form">
             <h1>Sign Up</h1>
-            <label for="login-fullName">Full name
+            <div class="input-container w-100-per">
+                <label for="login-fullName">Full name</label>
                 <input id="login-fullName" type="text">
-            </label>
-            <label for="login-email">Email address
-                <input id="login-email" type="text">
-            </label>
-            <label for="login-email">Create Password
-                <input id="login-email" type="text">
-            </label>
-            <label for="login-email">Confirm Password
-                <input id="login-email" type="text">
-            </label>
+            </div>
+            <div class="input-container w-100-per">
+                <label for="login-email">Email address</label>
+                <input id="login-email" type="email">
+            </div>
+            <div class="input-container w-100-per">
+                <label for="login-password">Create Password</label>
+                <input id="login-password" type="password">
+            </div>
             <div class="d-flex w-100-per justify-between">
                 <label for="rememberMe"><input id="rememberMe" type="checkbox"> I Accept all terms and conditions
                 </label>
             </div>
             <div class="btn btn-primary font-size-regular w-100-per">Create New Account</div>
             <a href="./login.html" class="color-gray-500 d-flex gap-sm">Alreday have account<span class="material-icons">login</span> </a>
-        </div>
+        </form>
     </div>
 </body>
 </html>
